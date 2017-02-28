@@ -1,11 +1,11 @@
-Create a simple TestVariants for Pages
+#Split Test
+##A really simple demonstration of split testing a web page
+ 
+A simple Node.js app to demonstrate Split Testing for five different variations of a web page with response as `hello world!`
 
-Split Testing for five different variations of `hello world!`
+You can add pages A, B, C for `test_id` = 1. You can add pages C, D, E for `test_id` = 2. 
 
-You can add pages A, B, C for `test_id` = 1. You can add pages C, D, E for `test_id` = 2
-
-calling the page test_id = 1 multiple times will return C, A, B, B etc., simulating different test case scenarios.
-
+Calling the page test_id = 1 multiple times will return C, A, B, B etc., simulating different test case scenarios.
  
 five different variations of `hello world!`
 
